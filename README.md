@@ -25,7 +25,7 @@ project/
 │   └── test_set.json                  # 120+ Nepal Grade 10 math questions
 ├── experiments/
 │   ├── experiment1_model_comparison.py
-│   ├── experiment2_retrieval_comparison.py
+│   ├── experiment2_multimodal_ablation.py
 │   ├── experiment3_agentic_workflows.py
 │   └── experiment4_human_evaluation.py
 ├── results/
@@ -68,7 +68,7 @@ Compares three LLMs on step-by-step solution quality using Static RAG.
 
 ---
 
-### Experiment 2 — Retrieval Strategy Comparison
+### Experiment 2 — Mutimodal Ablation
 
 Compares four retrieval conditions varying embedding modalities.
 
