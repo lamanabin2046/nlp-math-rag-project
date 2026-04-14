@@ -1,0 +1,1367 @@
+HUMAN EVALUATION GUIDE — Nepal Grade 10 Mathematics AI Tutor
+=================================================================
+
+TEACHER RUBRIC (0-3):
+  0 = Incorrect        — wrong approach or fundamental error
+  1 = Partially correct — right approach, significant errors
+  2 = Correct           — right answer, steps could be clearer
+  3 = Fully detailed    — correct, all steps, exam-ready
+
+STUDENT RATINGS (1-5 Likert):
+  Clarity    — Is the explanation easy to understand?
+  Alignment  — Does it match how you were taught in school?
+  Usefulness — Would this help you prepare for the exam?
+
+=================================================================
+
+ITEM   0  |  GEOMETRY  |  EASY  |  RAG
+-----------------------------------------------------------------
+Question: 13. A solid metallic sphere of diameter 6cm is melted and cast to a solid cylinder of radius 3cm. Find the height of the cylinder.
+
+Solution:
+To solve this problem, we need to find the height of the cylinder formed by melting a solid metallic sphere. We will use the principle of conservation of volume, which states that the volume of the sphere will be equal to the volume of the cylinder formed.
+
+**Step-by-Step Solution:**
+
+1. **Find the radius of the sphere:**
+   - Given the diameter of the sphere is 6 cm.
+   - Radius of the sphere, \( r = \frac{\text{diameter}}{2} = \frac{6 \text{ cm}}{2} = 3 \text{ cm} \).
+
+2. **Calculate the volume of the sphere:**
+   - The formula for the volume of a sphere is \( V = \frac{4}{3} \pi r^3 \).
+   - Substitute \( r = 3 \text{ cm} \) into the formula:
+     \[
+     V = \frac{4}{3} \pi (3 \text{ cm})^3 = \frac{4}{3} \pi \times 27 \text{ cm}^3 = 36 \pi \text{ cm}^3
+     \]
+
+3. **Set the volume of the sphere equal to the volume of the cylinder:**
+   - The formula for the volume of a cylinder is \( V = \pi r^2 h \), where \( r \) is the radius and \( h \) is the height.
+   - Given the radius of the cylinder is 3 cm, let the height be \( h \).
+   - Equate the volume of the sphere to the volume of the cylinder:
+     \[
+     36 \pi \text{ cm}^3 = \pi (3 \text{ cm})^2 \times h
+     \]
+
+4. **Solve for the height \( h \) of the cylinder:**
+   - Simplify the equation:
+     \[
+     36 \pi = \pi \times 9 \times h
+     \]
+   - Cancel \( \pi \) from both sides:
+     \[
+     36 = 9h
+     \]
+   - Solve for \( h \):
+     \[
+     h = \frac{36}{9} = 4 \text{ cm}
+     \]
+
+5. **State the final answer:**
+   - The height of the cylinder is \( 4 \text{ cm} \).
+
+Therefore, the height of the cylinder formed by melting the solid metallic sphere is 4 cm.
+
+  [Auto-rubric: 3]  The solution is fully detailed, correct, and all steps are clearly shown, matching exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM   1  |  GEOMETRY  |  EASY  |  BASELINE
+-----------------------------------------------------------------
+Question: 13. A solid metallic sphere of diameter 6cm is melted and cast to a solid cylinder of radius 3cm. Find the height of the cylinder.
+
+Solution:
+To solve this problem, we need to use the concept of volume conservation. When the metallic sphere is melted and recast into a cylinder, the volume of the sphere is equal to the volume of the cylinder. Let's go through the solution step-by-step:
+
+### Step 1: Calculate the Volume of the Sphere
+
+The formula for the volume \( V \) of a sphere with radius \( r \) is given by:
+
+\[
+V = \frac{4}{3} \pi r^3
+\]
+
+Given that the diameter of the sphere is 6 cm, the radius \( r \) is half of the diameter:
+
+\[
+r = \frac{6}{2} = 3 \text{ cm}
+\]
+
+Substitute \( r = 3 \) cm into the volume formula:
+
+\[
+V_{\text{sphere}} = \frac{4}{3} \pi (3)^3
+\]
+
+Calculate \( (3)^3 \):
+
+\[
+(3)^3 = 27
+\]
+
+Substitute back into the formula:
+
+\[
+V_{\text{sphere}} = \frac{4}{3} \pi \times 27
+\]
+
+Simplify:
+
+\[
+V_{\text{sphere}} = \frac{108}{3} \pi = 36\pi \text{ cubic centimeters}
+\]
+
+### Step 2: Calculate the Volume of the Cylinder
+
+The formula for the volume \( V \) of a cylinder with radius \( r \) and height \( h \) is given by:
+
+\[
+V = \pi r^2 h
+\]
+
+We know the radius of the cylinder is 3 cm, and we need to find the height \( h \). Since the volume of the sphere is equal to the volume of the cylinder:
+
+\[
+V_{\text{cylinder}} = V_{\text{sphere}}
+\]
+
+\[
+\pi (3)^2 h = 36\pi
+\]
+
+Calculate \( (3)^2 \):
+
+\[
+(3)^2 = 9
+\]
+
+Substitute back into the equation:
+
+\[
+\pi \times 9 \times h = 36\pi
+\]
+
+### Step 3: Solve for the Height of the Cylinder
+
+Divide both sides of the equation by \( \pi \):
+
+\[
+9h = 36
+\]
+
+Divide both sides by 9 to solve for \( h \):
+
+\[
+h = \frac{36}{9} = 4
+\]
+
+### Final Answer
+
+The height of the cylinder is \( \boxed{4} \) cm.
+
+  [Auto-rubric: 3]  The solution is correct, all steps are clearly shown, and it meets exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM   2  |  GEOMETRY  |  MEDIUM  |  RAG
+-----------------------------------------------------------------
+Question: a) Find the lateral surface area and the volume of a square based pyramid where length of the side of the base is 12cm and the vertical height is 8cm.
+
+Solution:
+To solve the problem of finding the lateral surface area and the volume of a square-based pyramid with a base side length of 12 cm and a vertical height of 8 cm, we will follow these steps:
+
+### Step 1: Calculate the Slant Height of the Pyramid
+
+The slant height (\(l\)) of a square-based pyramid can be found using the Pythagorean theorem. The slant height is the hypotenuse of a right triangle where the vertical height (\(h\)) is one leg, and half of the base side length (\(\frac{a}{2}\)) is the other leg.
+
+Given:
+- Base side length (\(a\)) = 12 cm
+- Vertical height (\(h\)) = 8 cm
+
+\[
+l = \sqrt{h^2 + \left(\frac{a}{2}\right)^2}
+\]
+
+\[
+l = \sqrt{8^2 + \left(\frac{12}{2}\right)^2}
+\]
+
+\[
+l = \sqrt{64 + 36} = \sqrt{100} = 10 \text{ cm}
+\]
+
+### Step 2: Calculate the Lateral Surface Area
+
+The lateral surface area of a square-based pyramid is the sum of the areas of the four triangular faces. Each triangular face has a base (\(a\)) and a slant height (\(l\)).
+
+\[
+\text{Lateral Surface Area} = 4 \times \left(\frac{1}{2} \times a \times l\right)
+\]
+
+\[
+= 4 \times \left(\frac{1}{2} \times 12 \times 10\right)
+\]
+
+\[
+= 4 \times 60 = 240 \text{ cm}^2
+\]
+
+### Step 3: Calculate the Volume of the Pyramid
+
+The volume (\(V\)) of a square-based pyramid is given by:
+
+\[
+V = \frac{1}{3} \times \text{Base Area} \times \text{Height}
+\]
+
+The base area is \(a^2\).
+
+\[
+\text{Base Area} = 12^2 = 144 \text{ cm}^2
+\]
+
+\[
+V = \frac{1}{3} \times 144 \times 8
+\]
+
+\[
+= \frac{1}{3} \times 1152 = 384 \text{ cm}^3
+\]
+
+### Final Answer
+
+- The lateral surface area of the pyramid is \(240 \text{ cm}^2\).
+- The volume of the pyramid is \(384 \text{ cm}^3\).
+
+  [Auto-rubric: 3]  The solution is fully detailed, correct, and all steps are shown clearly, matching exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM   3  |  GEOMETRY  |  MEDIUM  |  BASELINE
+-----------------------------------------------------------------
+Question: a) Find the lateral surface area and the volume of a square based pyramid where length of the side of the base is 12cm and the vertical height is 8cm.
+
+Solution:
+To solve this problem, we need to find both the lateral surface area and the volume of a square-based pyramid. Let's break it down step-by-step.
+
+### Given:
+- Side length of the base, \( s = 12 \) cm
+- Vertical height of the pyramid, \( h = 8 \) cm
+
+### a) Lateral Surface Area
+
+The lateral surface area of a square-based pyramid consists of the area of the four triangular faces. To find this, we first need to determine the slant height of the pyramid.
+
+#### Step 1: Calculate the Slant Height (\( l \))
+
+The slant height can be found using the Pythagorean theorem in the right triangle formed by the vertical height, half of the base side, and the slant height.
+
+1. The half of the base side is \( \frac{s}{2} = \frac{12}{2} = 6 \) cm.
+2. Use the Pythagorean theorem:
+   \[
+   l = \sqrt{h^2 + \left(\frac{s}{2}\right)^2} = \sqrt{8^2 + 6^2} = \sqrt{64 + 36} = \sqrt{100} = 10 \text{ cm}
+   \]
+
+#### Step 2: Calculate the Area of One Triangular Face
+
+The area of one triangular face is given by:
+\[
+\text{Area of one triangle} = \frac{1}{2} \times \text{base} \times \text{slant height} = \frac{1}{2} \times 12 \times 10 = 60 \text{ cm}^2
+\]
+
+#### Step 3: Calculate the Total Lateral Surface Area
+
+Since there are four triangular faces:
+\[
+\text{Lateral Surface Area} = 4 \times 60 = 240 \text{ cm}^2
+\]
+
+### b) Volume
+
+The volume of a pyramid is given by:
+\[
+\text{Volume} = \frac{1}{3} \times \text{Base Area} \times \text{Height}
+\]
+
+#### Step 4: Calculate the Base Area
+
+The base area of the square is:
+\[
+\text{Base Area} = s^2 = 12^2 = 144 \text{ cm}^2
+\]
+
+#### Step 5: Calculate the Volume
+
+Substitute the base area and height into the volume formula:
+\[
+\text{Volume} = \frac{1}{3} \times 144 \times 8 = \frac{1}{3} \times 1152 = 384 \text{ cm}^3
+\]
+
+### Final Answer
+
+1. **Lateral Surface Area**: 240 cm²
+2. **Volume**: 384 cm³
+
+These are the lateral surface area and the volume of the square-based pyramid.
+
+  [Auto-rubric: 3]  The solution is fully detailed, correct, and all steps are clearly shown, matching exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM   4  |  GEOMETRY  |  HARD  |  RAG
+-----------------------------------------------------------------
+Question: 13.  In the given figure, ABCD is a trapezium in which ABCD. E is any point on AD. CE and BA produced meet at F where FD and AC are joined. Prove that ∆FDC + ∆ABC =Trapezium ABCD.
+
+Solution:
+To solve this problem, we need to prove that the area of triangle \( \triangle FDC \) plus the area of triangle \( \triangle ABC \) is equal to the area of trapezium \( ABCD \). Let's proceed step-by-step:
+
+### Step-by-Step Solution:
+
+1. **Understand the Problem:**
+   - We have a trapezium \( ABCD \) with \( AB \parallel CD \).
+   - \( E \) is a point on \( AD \).
+   - Lines \( CE \) and \( BA \) are extended to meet at point \( F \).
+   - We need to prove that the area of \( \triangle FDC \) plus the area of \( \triangle ABC \) equals the area of trapezium \( ABCD \).
+
+2. **Identify Key Properties:**
+   - Since \( AB \parallel CD \), the height from any point on \( AB \) to \( CD \) is the same for both triangles and the trapezium.
+   - The area of a trapezium is given by the formula:
+     \[
+     \text{Area of trapezium } ABCD = \frac{1}{2} \times (AB + CD) \times \text{height}
+     \]
+
+3. **Express Areas of Triangles:**
+   - The area of \( \triangle ABC \) can be expressed as:
+     \[
+     \text{Area of } \triangle ABC = \frac{1}{2} \times AB \times \text{height}
+     \]
+   - The area of \( \triangle FDC \) can be expressed as:
+     \[
+     \text{Area of } \triangle FDC = \frac{1}{2} \times CD \times \text{height}
+     \]
+
+4. **Add the Areas of the Triangles:**
+   - Adding the areas of \( \triangle ABC \) and \( \triangle FDC \):
+     \[
+     \text{Area of } \triangle ABC + \text{Area of } \triangle FDC = \frac{1}{2} \times AB \times \text{height} + \frac{1}{2} \times CD \times \text{height}
+     \]
+   - This simplifies to:
+     \[
+     = \frac{1}{2} \times (AB + CD) \times \text{height}
+     \]
+
+5. **Compare with the Area of the Trapezium:**
+   - The expression obtained for the sum of the areas of the triangles is exactly the formula for the area of trapezium \( ABCD \):
+     \[
+     \text{Area of trapezium } ABCD = \frac{1}{2} \times (AB + CD) \times \text{height}
+     \]
+
+6. **Conclusion:**
+   - Therefore, we have shown that:
+     \[
+     \text{Area of } \triangle FDC + \text{Area of } \triangle ABC = \text{Area of trapezium } ABCD
+     \]
+
+### Final Answer:
+The sum of the areas of triangles \( \triangle FDC \) and \( \triangle ABC \) is equal to the area of trapezium \( ABCD \). Thus, \( \triangle FDC + \triangle ABC = \text{Trapezium } ABCD \).
+
+  [Auto-rubric: 3]  The solution is fully detailed, correct, and all steps are shown clearly, matching exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM   5  |  GEOMETRY  |  HARD  |  BASELINE
+-----------------------------------------------------------------
+Question: 13.  In the given figure, ABCD is a trapezium in which ABCD. E is any point on AD. CE and BA produced meet at F where FD and AC are joined. Prove that ∆FDC + ∆ABC =Trapezium ABCD.
+
+Solution:
+To solve this problem, we need to prove that the area of triangle \( \triangle FDC \) plus the area of triangle \( \triangle ABC \) is equal to the area of trapezium \( ABCD \).
+
+Let's break down the solution into clear steps:
+
+### Step 1: Understand the Problem
+- We have a trapezium \( ABCD \) where \( AB \parallel CD \).
+- \( E \) is a point on \( AD \).
+- Lines \( CE \) and \( BA \) are extended to meet at point \( F \).
+- We need to show that the sum of the areas of \( \triangle FDC \) and \( \triangle ABC \) equals the area of trapezium \( ABCD \).
+
+### Step 2: Analyze the Geometry
+- Since \( AB \parallel CD \), the height from \( A \) to \( CD \) is the same as the height from \( B \) to \( CD \).
+- The area of trapezium \( ABCD \) can be calculated using the formula for the area of a trapezium:
+  \[
+  \text{Area of } ABCD = \frac{1}{2} \times (AB + CD) \times \text{height}
+  \]
+
+### Step 3: Calculate Areas of Triangles
+- **Area of \( \triangle ABC \):**
+  - Since \( AB \parallel CD \), \( \triangle ABC \) shares the same height from \( A \) to \( CD \).
+  - Let the height from \( A \) to \( CD \) be \( h \).
+  - Area of \( \triangle ABC = \frac{1}{2} \times AB \times h \).
+
+- **Area of \( \triangle FDC \):**
+  - \( \triangle FDC \) shares the same base \( CD \) and height from \( F \) to \( CD \).
+  - Let the height from \( F \) to \( CD \) be \( h' \).
+  - Area of \( \triangle FDC = \frac{1}{2} \times CD \times h' \).
+
+### Step 4: Relate the Areas
+- Since \( F \) is on the line extended from \( BA \) and \( CE \), and \( AB \parallel CD \), the height \( h' \) from \( F \) to \( CD \) is effectively the same as the height \( h \) from \( A \) to \( CD \) due to the parallel nature of the lines.
+- Therefore, \( h = h' \).
+
+### Step 5: Sum of Areas
+- Add the areas of \( \triangle ABC \) and \( \triangle FDC \):
+  \[
+  \text{Area of } \triangle ABC + \text{Area of } \triangle FDC = \frac{1}{2} \times AB \times h + \frac{1}{2} \times CD \times h
+  \]
+  \[
+  = \frac{1}{2} \times (AB + CD) \times h
+  \]
+
+### Step 6: Conclusion
+- The sum of the areas of \( \triangle FDC \) and \( \triangle ABC \) is equal to the area of trapezium \( ABCD \):
+  \[
+  \triangle FDC + \triangle ABC = \text{Trapezium } ABCD
+  \]
+
+### Final Answer
+The sum of the areas of \( \triangle FDC \) and \( \triangle ABC \) is equal to the area of trapezium \( ABCD \). Thus, we have proved that:
+\[ \triangle FDC + \triangle ABC = \text{Trapezium } ABCD \]
+
+  [Auto-rubric: 3]  The solution is fully detailed, correct, and all steps are shown clearly, matching exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM   6  |  ALGEBRA  |  EASY  |  RAG
+-----------------------------------------------------------------
+Question: i.e. if ܽ௫ = ܽ௬, then ݔ =y. if ܽ௫ = 1, then ݔ = 0. Mathematics, grade 10 131
+
+Solution:
+To solve the problem, we need to understand the properties of exponents and the implications of the given conditions. Let's break it down step by step:
+
+### Problem:
+If \( a^x = a^y \), then \( x = y \). If \( a^x = 1 \), then \( x = 0 \).
+
+### Solution:
+
+#### Step 1: Understanding the first condition \( a^x = a^y \)
+
+1. **Given:** \( a^x = a^y \)
+2. **Property of Exponents:** If the bases are the same and the expressions are equal, then the exponents must be equal. This is a fundamental property of exponents.
+3. **Conclusion:** Therefore, \( x = y \).
+
+#### Step 2: Understanding the second condition \( a^x = 1 \)
+
+1. **Given:** \( a^x = 1 \)
+2. **Property of Exponents:** For any non-zero base \( a \), \( a^0 = 1 \). This means that the exponent must be zero for the expression to equal one.
+3. **Conclusion:** Therefore, \( x = 0 \).
+
+### Final Answer:
+1. If \( a^x = a^y \), then \( x = y \).
+2. If \( a^x = 1 \), then \( x = 0 \).
+
+These conclusions are based on the fundamental properties of exponents, which are consistent with the principles taught in Grade 10 Mathematics in Nepal.
+
+  [Auto-rubric: 3]  The solution is fully detailed, correct, and all steps are clearly shown, matching exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM   7  |  ALGEBRA  |  EASY  |  BASELINE
+-----------------------------------------------------------------
+Question: i.e. if ܽ௫ = ܽ௬, then ݔ =y. if ܽ௫ = 1, then ݔ = 0. Mathematics, grade 10 131
+
+Solution:
+To solve the problem, we need to understand the properties of exponents and how they relate to the given equations. Let's break down the problem into clear steps:
+
+### Problem Understanding
+
+We have two statements to consider:
+1. If \( a^x = a^y \), then \( x = y \).
+2. If \( a^x = 1 \), then \( x = 0 \).
+
+### Assumptions
+
+- \( a \) is a non-zero real number.
+- \( a \neq 1 \), because if \( a = 1 \), then \( a^x = 1^x = 1 \) for any \( x \), which makes the first statement invalid.
+
+### Step-by-Step Solution
+
+#### Step 1: Analyze the first statement
+
+1. **Given:** \( a^x = a^y \)
+2. **Objective:** Show that \( x = y \).
+
+   - Since the bases are the same and \( a \neq 0 \) and \( a \neq 1 \), we can apply the property of exponents that states if the bases are equal, then the exponents must also be equal.
+   - Therefore, \( x = y \).
+
+#### Step 2: Analyze the second statement
+
+1. **Given:** \( a^x = 1 \)
+2. **Objective:** Show that \( x = 0 \).
+
+   - We know that any non-zero number raised to the power of 0 is 1, i.e., \( a^0 = 1 \).
+   - Since \( a \neq 1 \), the only exponent that makes \( a^x = 1 \) is \( x = 0 \).
+
+### Conclusion
+
+- For the first statement, if \( a^x = a^y \), then \( x = y \).
+- For the second statement, if \( a^x = 1 \), then \( x = 0 \).
+
+### Final Answer
+
+1. If \( a^x = a^y \), then \( x = y \).
+2. If \( a^x = 1 \), then \( x = 0 \).
+
+These results rely on the properties of exponents and the assumption that \( a \) is a non-zero real number and \( a \neq 1 \).
+
+  [Auto-rubric: 3]  The solution is fully detailed, correct, and all steps are clearly shown, matching exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM   8  |  ALGEBRA  |  MEDIUM  |  RAG
+-----------------------------------------------------------------
+Question: 8. Solve: (a) √௫ା√௔ √௫ି√௔ + √௫ି√௔ √௫ା√௔  = 4 (b) ௬ା ඥ௬మିଵ ௬ି ඥ௬మିଵ + ௬ି ඥ௬మିଵ ௬ା ඥ௬మିଵ =98 (c) √௫ √ଵି௫ + √ଵା௫ √௫ = ହ ଶ (d) √௫ାଷ –√௫ିଷ √௫ାଷା√௫ିଷ= ଵ ଷ
+
+Solution:
+Let's solve each part of the problem step by step, following the methods used in the examples provided.
+
+### Problem 8(a):
+Solve: \(\frac{\sqrt{x} + \sqrt{a}}{\sqrt{x} - \sqrt{a}} + \frac{\sqrt{x} - \sqrt{a}}{\sqrt{x} + \sqrt{a}} = 4\)
+
+**Step-by-step Solution:**
+
+1. **Combine the fractions:**
+   \[
+   \frac{(\sqrt{x} + \sqrt{a})^2 + (\sqrt{x} - \sqrt{a})^2}{(\sqrt{x} - \sqrt{a})(\sqrt{x} + \sqrt{a})} = 4
+   \]
+
+2. **Simplify the numerator:**
+   \[
+   (\sqrt{x} + \sqrt{a})^2 = x + 2\sqrt{x}\sqrt{a} + a
+   \]
+   \[
+   (\sqrt{x} - \sqrt{a})^2 = x - 2\sqrt{x}\sqrt{a} + a
+   \]
+   \[
+   (\sqrt{x} + \sqrt{a})^2 + (\sqrt{x} - \sqrt{a})^2 = 2x + 2a
+   \]
+
+3. **Simplify the denominator:**
+   \[
+   (\sqrt{x} - \sqrt{a})(\sqrt{x} + \sqrt{a}) = x - a
+   \]
+
+4. **Substitute back into the equation:**
+   \[
+   \frac{2x + 2a}{x - a} = 4
+   \]
+
+5. **Cross-multiply to solve for \(x\):**
+   \[
+   2x + 2a = 4(x - a)
+   \]
+   \[
+   2x + 2a = 4x - 4a
+   \]
+
+6. **Rearrange terms:**
+   \[
+   2a + 4a = 4x - 2x
+   \]
+   \[
+   6a = 2x
+   \]
+   \[
+   x = 3a
+   \]
+
+**Final Answer for 8(a):** \(x = 3a\)
+
+---
+
+### Problem 8(b):
+Solve: \(\frac{y + \sqrt{y^2 - 1}}{y - \sqrt{y^2 - 1}} + \frac{y - \sqrt{y^2 - 1}}{y + \sqrt{y^2 - 1}} = 98\)
+
+**Step-by-step Solution:**
+
+1. **Combine the fractions:**
+   \[
+   \frac{(y + \sqrt{y^2 - 1})^2 + (y - \sqrt{y^2 - 1})^2}{(y - \sqrt{y^2 - 1})(y + \sqrt{y^2 - 1})} = 98
+   \]
+
+2. **Simplify the numerator:**
+   \[
+   (y + \sqrt{y^2 - 1})^2 = y^2 + 2y\sqrt{y^2 - 1} + (y^2 - 1)
+   \]
+   \[
+   (y - \sqrt{y^2 - 1})^2 = y^2 - 2y\sqrt{y^2 - 1} + (y^2 - 1)
+   \]
+   \[
+   (y + \sqrt{y^2 - 1})^2 + (y - \sqrt{y^2 - 1})^2 = 2y^2 + 2(y^2 - 1) = 4y^2 - 2
+   \]
+
+3. **Simplify the denominator:**
+   \[
+   (y - \sqrt{y^2 - 1})(y + \sqrt{y^2 - 1}) = y^2 - (y^2 - 1) = 1
+   \]
+
+4. **Substitute back into the equation:**
+   \[
+   4y^2 - 2 = 98
+   \]
+
+5. **Solve for \(y^2\):**
+   \[
+   4y^2 = 100
+   \]
+   \[
+   y^2 = 25
+   \]
+   \[
+   y = \pm 5
+   \]
+
+**Final Answer for 8(b):** \(y = 5\) or \(y = -5\)
+
+---
+
+### Problem 8(c):
+Solve: \(\frac{\sqrt{x}}{\sqrt{1-x}} + \frac{\sqrt{1+x}}{\sqrt{x}} = \frac{
+
+  [Auto-rubric: 1]  The solution demonstrates the correct approach and some correct steps, but there are significant errors in the simplification and solving process, particularly in parts (b) and (c), which are incomplete.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM   9  |  ALGEBRA  |  MEDIUM  |  BASELINE
+-----------------------------------------------------------------
+Question: 8. Solve: (a) √௫ା√௔ √௫ି√௔ + √௫ି√௔ √௫ା√௔  = 4 (b) ௬ା ඥ௬మିଵ ௬ି ඥ௬మିଵ + ௬ି ඥ௬మିଵ ௬ା ඥ௬మିଵ =98 (c) √௫ √ଵି௫ + √ଵା௫ √௫ = ହ ଶ (d) √௫ାଷ –√௫ିଷ √௫ାଷା√௫ିଷ= ଵ ଷ
+
+Solution:
+Let's solve each part of the problem step-by-step.
+
+### (a) Solve: \(\frac{\sqrt{x} + \sqrt{a}}{\sqrt{x} - \sqrt{a}} + \frac{\sqrt{x} - \sqrt{a}}{\sqrt{x} + \sqrt{a}} = 4\)
+
+**Step 1:** Simplify each fraction.
+
+- The expression is \(\frac{\sqrt{x} + \sqrt{a}}{\sqrt{x} - \sqrt{a}} + \frac{\sqrt{x} - \sqrt{a}}{\sqrt{x} + \sqrt{a}}\).
+
+**Step 2:** Find a common denominator.
+
+- The common denominator is \((\sqrt{x} - \sqrt{a})(\sqrt{x} + \sqrt{a}) = x - a\).
+
+**Step 3:** Combine the fractions.
+
+\[
+\frac{(\sqrt{x} + \sqrt{a})^2 + (\sqrt{x} - \sqrt{a})^2}{x - a}
+\]
+
+**Step 4:** Expand the numerators.
+
+- \((\sqrt{x} + \sqrt{a})^2 = x + 2\sqrt{xa} + a\)
+- \((\sqrt{x} - \sqrt{a})^2 = x - 2\sqrt{xa} + a\)
+
+**Step 5:** Add the expanded forms.
+
+\[
+x + 2\sqrt{xa} + a + x - 2\sqrt{xa} + a = 2x + 2a
+\]
+
+**Step 6:** Substitute back into the equation.
+
+\[
+\frac{2x + 2a}{x - a} = 4
+\]
+
+**Step 7:** Solve for \(x\).
+
+- Multiply both sides by \(x - a\):
+
+\[
+2x + 2a = 4(x - a)
+\]
+
+- Expand the right side:
+
+\[
+2x + 2a = 4x - 4a
+\]
+
+- Rearrange terms:
+
+\[
+2a + 4a = 4x - 2x
+\]
+
+\[
+6a = 2x
+\]
+
+- Divide by 2:
+
+\[
+x = 3a
+\]
+
+**Final Answer (a):** \(x = 3a\)
+
+---
+
+### (b) Solve: \(\frac{y + \sqrt{y^2 - 1}}{y - \sqrt{y^2 - 1}} + \frac{y - \sqrt{y^2 - 1}}{y + \sqrt{y^2 - 1}} = 98\)
+
+**Step 1:** Simplify each fraction.
+
+- The expression is \(\frac{y + \sqrt{y^2 - 1}}{y - \sqrt{y^2 - 1}} + \frac{y - \sqrt{y^2 - 1}}{y + \sqrt{y^2 - 1}}\).
+
+**Step 2:** Find a common denominator.
+
+- The common denominator is \((y - \sqrt{y^2 - 1})(y + \sqrt{y^2 - 1}) = 1\).
+
+**Step 3:** Combine the fractions.
+
+\[
+(y + \sqrt{y^2 - 1})^2 + (y - \sqrt{y^2 - 1})^2
+\]
+
+**Step 4:** Expand the numerators.
+
+- \((y + \sqrt{y^2 - 1})^2 = y^2 + 2y\sqrt{y^2 - 1} + (y^2 - 1)\)
+- \((y - \sqrt{y^2 - 1})^2 = y^2 - 2y\sqrt{y^2 - 1} + (y^2 - 1)\)
+
+**Step 5:** Add the expanded forms.
+
+\[
+2y^2 + 2(y^2 - 1) = 2y^2 + 2y^2 - 2 = 4y^2 - 2
+\]
+
+**Step 6:** Set the equation equal to 98.
+
+\[
+4y^2 - 2 = 98
+\]
+
+**Step 7:** Solve for \(y\).
+
+- Add 2 to both sides:
+
+\[
+4y^2 = 100
+\]
+
+- Divide by 4:
+
+\[
+y^2 = 25
+\]
+
+- Take the square root:
+
+\[
+y = \pm 5
+\]
+
+**Final Answer (b):** \(y = 5\) or \(y = -5\)
+
+---
+
+### (c) Solve: \(\frac{\sqrt{x}}{\sqrt{1-x}} + \frac{\sqrt{1+x
+
+  [Auto-rubric: 1]  The solution demonstrates the correct approach and some correct steps, but there are significant errors in the simplification and combining of fractions, particularly in part (b).
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM  10  |  ALGEBRA  |  HARD  |  RAG
+-----------------------------------------------------------------
+Question: 6. If p =ݔ௔, q =ݔ௕and r = ݔ௖, prove that: pb-c× qc-a× ra-b =1
+
+Solution:
+To prove that \( p^{b-c} \times q^{c-a} \times r^{a-b} = 1 \) given that \( p = x^a \), \( q = x^b \), and \( r = x^c \), we will follow these steps:
+
+### Step-by-Step Solution:
+
+1. **Substitute the given expressions for \( p \), \( q \), and \( r \):**
+
+   We have:
+   \[
+   p = x^a, \quad q = x^b, \quad r = x^c
+   \]
+
+2. **Express \( p^{b-c} \), \( q^{c-a} \), and \( r^{a-b} \) using the given expressions:**
+
+   \[
+   p^{b-c} = (x^a)^{b-c} = x^{a(b-c)}
+   \]
+   \[
+   q^{c-a} = (x^b)^{c-a} = x^{b(c-a)}
+   \]
+   \[
+   r^{a-b} = (x^c)^{a-b} = x^{c(a-b)}
+   \]
+
+3. **Combine the expressions:**
+
+   \[
+   p^{b-c} \times q^{c-a} \times r^{a-b} = x^{a(b-c)} \times x^{b(c-a)} \times x^{c(a-b)}
+   \]
+
+4. **Use the property of exponents to combine the powers:**
+
+   \[
+   = x^{a(b-c) + b(c-a) + c(a-b)}
+   \]
+
+5. **Simplify the exponent:**
+
+   Calculate each term in the exponent:
+   \[
+   a(b-c) = ab - ac
+   \]
+   \[
+   b(c-a) = bc - ba
+   \]
+   \[
+   c(a-b) = ca - cb
+   \]
+
+   Combine these:
+   \[
+   ab - ac + bc - ba + ca - cb
+   \]
+
+   Notice that terms cancel out:
+   \[
+   ab - ba = 0, \quad bc - cb = 0, \quad ca - ac = 0
+   \]
+
+   So, the exponent simplifies to:
+   \[
+   0
+   \]
+
+6. **Conclude the proof:**
+
+   Since the exponent is 0, we have:
+   \[
+   x^0 = 1
+   \]
+
+Thus, we have shown that:
+\[
+p^{b-c} \times q^{c-a} \times r^{a-b} = 1
+\]
+
+### Final Answer:
+\[
+p^{b-c} \times q^{c-a} \times r^{a-b} = 1
+\]
+
+  [Auto-rubric: 3]  The solution is correct, all steps are clearly shown, and it matches exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM  11  |  ALGEBRA  |  HARD  |  BASELINE
+-----------------------------------------------------------------
+Question: 6. If p =ݔ௔, q =ݔ௕and r = ݔ௖, prove that: pb-c× qc-a× ra-b =1
+
+Solution:
+To prove the given expression \( p^{b-c} \times q^{c-a} \times r^{a-b} = 1 \), we will follow a step-by-step approach. Let's start by understanding the given variables and expressions:
+
+Given:
+- \( p = x^a \)
+- \( q = x^b \)
+- \( r = x^c \)
+
+We need to prove:
+\[ p^{b-c} \times q^{c-a} \times r^{a-b} = 1 \]
+
+**Step-by-step Solution:**
+
+1. **Substitute the expressions for \( p \), \( q \), and \( r \):**
+
+   \[
+   p^{b-c} = (x^a)^{b-c} = x^{a(b-c)}
+   \]
+
+   \[
+   q^{c-a} = (x^b)^{c-a} = x^{b(c-a)}
+   \]
+
+   \[
+   r^{a-b} = (x^c)^{a-b} = x^{c(a-b)}
+   \]
+
+2. **Combine the expressions:**
+
+   \[
+   p^{b-c} \times q^{c-a} \times r^{a-b} = x^{a(b-c)} \times x^{b(c-a)} \times x^{c(a-b)}
+   \]
+
+3. **Use the property of exponents:**
+
+   When multiplying powers with the same base, add the exponents:
+
+   \[
+   x^{a(b-c) + b(c-a) + c(a-b)}
+   \]
+
+4. **Simplify the exponent:**
+
+   Expand each term in the exponent:
+
+   \[
+   a(b-c) = ab - ac
+   \]
+
+   \[
+   b(c-a) = bc - ba
+   \]
+
+   \[
+   c(a-b) = ca - cb
+   \]
+
+   Combine these:
+
+   \[
+   ab - ac + bc - ba + ca - cb
+   \]
+
+5. **Cancel out terms:**
+
+   Notice that the terms cancel each other out:
+
+   - \( ab \) and \(- ba\) cancel each other.
+   - \( ac \) and \(- ca\) cancel each other.
+   - \( bc \) and \(- cb\) cancel each other.
+
+   This simplifies to:
+
+   \[
+   0
+   \]
+
+6. **Final expression:**
+
+   \[
+   x^0 = 1
+   \]
+
+Therefore, we have shown that:
+
+\[ p^{b-c} \times q^{c-a} \times r^{a-b} = 1 \]
+
+**Final Answer:**
+
+The expression \( p^{b-c} \times q^{c-a} \times r^{a-b} = 1 \) is proven to be true.
+
+  [Auto-rubric: 3]  The solution is fully detailed, correct, and all steps are clearly shown, matching exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM  12  |  WORD_PROBLEMS  |  EASY  |  RAG
+-----------------------------------------------------------------
+Question: i) Which shape does of the above figure ABCD represent?
+
+Solution:
+To determine the shape of the figure ABCD, we need to analyze the given properties and characteristics of the figure based on the examples provided.
+
+**Step-by-Step Solution:**
+
+1. **Identify the Given Information:**
+   - The problem does not provide a direct description of the figure ABCD, but we can infer from the context of the examples that ABCD is likely a quadrilateral.
+
+2. **Analyze the Examples:**
+   - **Example 1** describes ABCD as a rhombus. A rhombus is a type of quadrilateral where all sides are of equal length, and opposite angles are equal.
+   - **Example 2** discusses a parallelogram, which is another type of quadrilateral where opposite sides are equal and parallel, and opposite angles are equal.
+   - **Example 3** involves triangles and does not directly relate to quadrilaterals.
+   - **Example 4** and **Example 5** focus on triangles and do not provide information about quadrilaterals.
+
+3. **Determine the Shape:**
+   - Since Example 1 explicitly states that ABCD is a rhombus, and no other examples contradict this, we can conclude that the figure ABCD is a rhombus.
+
+4. **Verify with Properties:**
+   - A rhombus has the following properties:
+     - All sides are of equal length.
+     - Opposite angles are equal.
+     - Diagonals bisect each other at right angles.
+   - These properties align with the description in Example 1, where it is mentioned that AB = AD = 10 cm and ED = DC = AB = 10 cm, confirming that all sides are equal.
+
+**Final Answer:**
+The shape of the figure ABCD is a rhombus.
+
+  [Auto-rubric: 1]  The solution uses the right approach but lacks clarity in steps and relies on assumptions without sufficient justification from the given information.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM  13  |  WORD_PROBLEMS  |  EASY  |  BASELINE
+-----------------------------------------------------------------
+Question: i) Which shape does of the above figure ABCD represent?
+
+Solution:
+To solve the problem of identifying the shape of figure ABCD, we need to analyze the properties of the figure based on the information provided. Since the figure is not visually available, I will guide you through a general approach to identifying a quadrilateral, assuming that ABCD is a quadrilateral.
+
+### Step-by-Step Solution:
+
+1. **Identify the Number of Sides:**
+   - A quadrilateral is a polygon with four sides. Ensure that ABCD has four sides.
+
+2. **Check for Parallel Sides:**
+   - Determine if any pairs of opposite sides are parallel.
+   - If both pairs of opposite sides are parallel, ABCD is a parallelogram.
+   - If only one pair of opposite sides is parallel, ABCD is a trapezoid (or trapezium).
+
+3. **Check for Equal Sides:**
+   - If all four sides are equal, ABCD could be a rhombus or a square.
+   - If opposite sides are equal, it could be a rectangle or a parallelogram.
+
+4. **Check for Right Angles:**
+   - If all angles are right angles (90 degrees), ABCD is a rectangle or a square.
+   - If only some angles are right angles, further investigation is needed.
+
+5. **Check for Diagonal Properties:**
+   - If the diagonals bisect each other and are equal, ABCD is a rectangle.
+   - If the diagonals bisect each other at right angles, ABCD is a rhombus.
+   - If the diagonals are equal and bisect each other at right angles, ABCD is a square.
+
+6. **Conclusion:**
+   - Based on the properties identified, conclude the specific type of quadrilateral ABCD represents.
+
+### Final Answer:
+
+Without specific measurements or additional information, the exact shape of ABCD cannot be determined. However, by following the steps above, you can identify whether ABCD is a square, rectangle, rhombus, parallelogram, or trapezoid based on its properties. If you have specific measurements or properties (like side lengths, angles, or diagonal properties), you can apply these steps to determine the shape accurately.
+
+  [Auto-rubric: 0]  The solution lacks specific information about figure ABCD and does not provide a definitive answer, making it fundamentally incorrect.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM  14  |  WORD_PROBLEMS  |  MEDIUM  |  RAG
+-----------------------------------------------------------------
+Question: 4.1 Population Growth: The total number of inhabitants living in a place is called the population. The population is generally changing time to time. The relative increase in the population of the country represents the growth of population. The growth of population per year is called the annual growth rate .Generally, the population is increasing if it is not affected by extraneous conditions. For example, in 2068 the population of a village council is P0 and rate of growth is R%, what will be the population of that village council at the end of 2072? Here, Initial population = Po Rate of growth = (R) = R% Time = T year Population after T year =PT, We can use the formula of compound amount as PT = Poቀ1 + ୖ ଵ଴଴ቁ ୘ Again, The increased population  = PT - Po= Poቀ1 + ୖ ଵ଴଴ቁ ୘ -  Po = Po൤ቀ1 + ୖ ଵ଴଴ቁ ୘ −1൨ If, R1, R2, R3,…….. RT be the rates of growth of 1st, 2nd, 3rd, ……..Tth different years then, PT = Poቀ1 + ୖభ ଵ଴଴ቁቀ1 + ୖమ ଵ଴଴ቁቀ1 + ୖయ ଵ଴଴ቁ…………..ቀ1 + ୖ౐ ଵ଴଴ቁ
+
+Solution:
+To solve the problem of finding the population of a village council at the end of 2072, given the initial population in 2068 and the annual growth rate, we will follow the steps outlined in the examples provided. We will use the formula for compound growth to calculate the population after a certain number of years.
+
+**Problem Statement:**
+In 2068, the population of a village council is \( P_0 \) and the rate of growth is \( R\% \). What will be the population of that village council at the end of 2072?
+
+**Solution:**
+
+1. **Identify the Given Information:**
+   - Initial Population (\( P_0 \)): This is the population in the year 2068.
+   - Rate of Growth (\( R \)): This is the annual growth rate in percentage.
+   - Time (\( T \)): The number of years from 2068 to 2072, which is 4 years.
+
+2. **Formula for Population Growth:**
+   The formula to calculate the population after \( T \) years with a constant growth rate is:
+   \[
+   P_T = P_0 \left(1 + \frac{R}{100}\right)^T
+   \]
+   Where:
+   - \( P_T \) is the population after \( T \) years.
+   - \( P_0 \) is the initial population.
+   - \( R \) is the rate of growth.
+   - \( T \) is the time in years.
+
+3. **Substitute the Values:**
+   - Let \( P_0 = P_0 \) (as given in the problem, we assume a specific value if needed).
+   - Let \( R = R \) (as given in the problem, we assume a specific value if needed).
+   - \( T = 2072 - 2068 = 4 \) years.
+
+4. **Calculate the Population at the End of 2072:**
+   \[
+   P_{2072} = P_0 \left(1 + \frac{R}{100}\right)^4
+   \]
+
+5. **Example Calculation:**
+   Suppose \( P_0 = 10,000 \) and \( R = 5\% \) (these are hypothetical values for illustration):
+   \[
+   P_{2072} = 10,000 \left(1 + \frac{5}{100}\right)^4
+   \]
+   \[
+   P_{2072} = 10,000 \times (1.05)^4
+   \]
+   \[
+   P_{2072} = 10,000 \times 1.21550625
+   \]
+   \[
+   P_{2072} = 12,155.0625
+   \]
+   Therefore, the population at the end of 2072 would be approximately 12,155.
+
+6. **Final Answer:**
+   The population of the village council at the end of 2072, given the initial population \( P_0 \) and a growth rate \( R\% \), can be calculated using the formula:
+   \[
+   P_{2072} = P_0 \left(1 + \frac{R}{100}\right)^4
+   \]
+   Substitute the specific values of \( P_0 \) and \( R \) to find the exact population.
+
+This step-by-step approach aligns with the examples provided and follows the compound growth formula used in the Nepal Grade 10 Mathematics curriculum.
+
+  [Auto-rubric: 3]  The solution is fully detailed, correct, and all steps are shown clearly, matching exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM  15  |  WORD_PROBLEMS  |  MEDIUM  |  BASELINE
+-----------------------------------------------------------------
+Question: 4.1 Population Growth: The total number of inhabitants living in a place is called the population. The population is generally changing time to time. The relative increase in the population of the country represents the growth of population. The growth of population per year is called the annual growth rate .Generally, the population is increasing if it is not affected by extraneous conditions. For example, in 2068 the population of a village council is P0 and rate of growth is R%, what will be the population of that village council at the end of 2072? Here, Initial population = Po Rate of growth = (R) = R% Time = T year Population after T year =PT, We can use the formula of compound amount as PT = Poቀ1 + ୖ ଵ଴଴ቁ ୘ Again, The increased population  = PT - Po= Poቀ1 + ୖ ଵ଴଴ቁ ୘ -  Po = Po൤ቀ1 + ୖ ଵ଴଴ቁ ୘ −1൨ If, R1, R2, R3,…….. RT be the rates of growth of 1st, 2nd, 3rd, ……..Tth different years then, PT = Poቀ1 + ୖభ ଵ଴଴ቁቀ1 + ୖమ ଵ଴଴ቁቀ1 + ୖయ ଵ଴଴ቁ…………..ቀ1 + ୖ౐ ଵ଴଴ቁ
+
+Solution:
+To solve the problem of determining the population of a village council at the end of 2072 given an initial population \( P_0 \) in 2068 and a constant annual growth rate \( R\% \), we will use the formula for compound growth. Here is a step-by-step solution:
+
+### Step-by-Step Solution
+
+1. **Identify the Given Information:**
+   - Initial population in 2068: \( P_0 \)
+   - Annual growth rate: \( R\% \)
+   - Time period: \( T = 2072 - 2068 = 4 \) years
+
+2. **Understand the Formula:**
+   The formula to calculate the population after \( T \) years with a constant growth rate is:
+   \[
+   P_T = P_0 \left(1 + \frac{R}{100}\right)^T
+   \]
+   Where:
+   - \( P_T \) is the population after \( T \) years.
+   - \( P_0 \) is the initial population.
+   - \( R \) is the annual growth rate.
+   - \( T \) is the number of years.
+
+3. **Substitute the Known Values:**
+   Substitute \( T = 4 \) into the formula:
+   \[
+   P_{2072} = P_0 \left(1 + \frac{R}{100}\right)^4
+   \]
+
+4. **Calculate the Population:**
+   Since we do not have specific numerical values for \( P_0 \) and \( R \), the expression \( P_{2072} = P_0 \left(1 + \frac{R}{100}\right)^4 \) is the final formula to calculate the population at the end of 2072.
+
+5. **Interpret the Result:**
+   - This formula allows you to calculate the population at the end of 2072 by plugging in the initial population \( P_0 \) and the growth rate \( R \).
+   - If you have specific values for \( P_0 \) and \( R \), you can substitute them into the formula to find the exact population.
+
+### Final Answer
+The population of the village council at the end of 2072 is given by:
+\[
+P_{2072} = P_0 \left(1 + \frac{R}{100}\right)^4
+\]
+This formula will yield the population after 4 years, given the initial population and the annual growth rate.
+
+  [Auto-rubric: 3]  The solution is fully detailed, correct, and all steps are clearly shown, matching exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM  16  |  WORD_PROBLEMS  |  MEDIUM  |  RAG
+-----------------------------------------------------------------
+Question: III. Suppose the number of virus in a patient is decreasing with the rate of 40%  per hour. If the number of virus is 2 x 105 at starting of the medicine, find the number of virus after 3 hours? In the above three cases; I and II are similar, II gives the growth per year and III gives depreciation per hour of the virus. Now we are going to discus about compound growth and compound depreciation in detail.
+
+Solution:
+To solve the problem of finding the number of viruses after 3 hours, given that the virus count decreases at a rate of 40% per hour, we will use the concept of compound depreciation. This is similar to the examples provided in the textbook, where we calculate the depreciated value over time.
+
+**Step-by-Step Solution:**
+
+1. **Identify the Given Values:**
+   - Initial number of viruses (\(V_0\)) = \(2 \times 10^5\)
+   - Rate of depreciation (\(R\)) = 40% per hour
+   - Time (\(T\)) = 3 hours
+
+2. **Understand the Formula:**
+   The formula for compound depreciation is similar to that of compound interest but involves subtraction due to depreciation:
+   \[
+   V_T = V_0 \left(1 - \frac{R}{100}\right)^T
+   \]
+   Where:
+   - \(V_T\) is the number of viruses after \(T\) hours.
+   - \(V_0\) is the initial number of viruses.
+   - \(R\) is the rate of depreciation.
+   - \(T\) is the time in hours.
+
+3. **Substitute the Given Values into the Formula:**
+   \[
+   V_T = 2 \times 10^5 \left(1 - \frac{40}{100}\right)^3
+   \]
+
+4. **Calculate the Depreciation Factor:**
+   \[
+   1 - \frac{40}{100} = 0.60
+   \]
+
+5. **Calculate the Number of Viruses After 3 Hours:**
+   \[
+   V_T = 2 \times 10^5 \times (0.60)^3
+   \]
+
+6. **Compute the Power of the Depreciation Factor:**
+   \[
+   (0.60)^3 = 0.216
+   \]
+
+7. **Calculate the Final Number of Viruses:**
+   \[
+   V_T = 2 \times 10^5 \times 0.216 = 0.432 \times 10^5
+   \]
+
+8. **Convert to Standard Form:**
+   \[
+   V_T = 4.32 \times 10^4
+   \]
+
+9. **State the Final Answer:**
+   The number of viruses after 3 hours is \(4.32 \times 10^4\).
+
+This step-by-step approach aligns with the methods used in the textbook examples, ensuring clarity and understanding for Grade 10 students.
+
+  [Auto-rubric: 3]  The solution is correct, all steps are clearly shown, and it matches exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
+
+ITEM  17  |  WORD_PROBLEMS  |  MEDIUM  |  BASELINE
+-----------------------------------------------------------------
+Question: III. Suppose the number of virus in a patient is decreasing with the rate of 40%  per hour. If the number of virus is 2 x 105 at starting of the medicine, find the number of virus after 3 hours? In the above three cases; I and II are similar, II gives the growth per year and III gives depreciation per hour of the virus. Now we are going to discus about compound growth and compound depreciation in detail.
+
+Solution:
+To solve this problem, we will use the concept of compound depreciation. When a quantity decreases by a certain percentage over a period of time, it is known as depreciation. In this case, the number of viruses is decreasing by 40% per hour. Let's go through the solution step-by-step:
+
+**Step 1: Understand the initial conditions and depreciation rate.**
+
+- Initial number of viruses, \( V_0 = 2 \times 10^5 \).
+- Depreciation rate per hour = 40%.
+
+**Step 2: Determine the remaining percentage after depreciation.**
+
+- If the virus count decreases by 40%, then 60% of the virus count remains after each hour.
+- Remaining percentage = 100% - 40% = 60% = 0.60 (as a decimal).
+
+**Step 3: Use the formula for compound depreciation.**
+
+The formula for compound depreciation is given by:
+
+\[ V = V_0 \times (1 - r)^t \]
+
+where:
+- \( V \) is the final amount after time \( t \),
+- \( V_0 \) is the initial amount,
+- \( r \) is the depreciation rate (as a decimal),
+- \( t \) is the time period.
+
+**Step 4: Substitute the known values into the formula.**
+
+- \( V_0 = 2 \times 10^5 \),
+- \( r = 0.40 \),
+- \( t = 3 \) hours.
+
+\[ V = 2 \times 10^5 \times (1 - 0.40)^3 \]
+
+**Step 5: Simplify the expression.**
+
+- Calculate \( (1 - 0.40) = 0.60 \).
+
+\[ V = 2 \times 10^5 \times (0.60)^3 \]
+
+**Step 6: Calculate \( (0.60)^3 \).**
+
+\[ (0.60)^3 = 0.60 \times 0.60 \times 0.60 = 0.216 \]
+
+**Step 7: Calculate the final number of viruses.**
+
+\[ V = 2 \times 10^5 \times 0.216 \]
+
+\[ V = 2 \times 0.216 \times 10^5 \]
+
+\[ V = 0.432 \times 10^5 \]
+
+**Step 8: Express the final answer in standard form.**
+
+\[ V = 4.32 \times 10^4 \]
+
+**Final Answer:**
+
+The number of viruses after 3 hours is \( 4.32 \times 10^4 \).
+
+  [Auto-rubric: 3]  The solution is fully detailed, correct, and all steps are clearly shown, matching exam requirements.
+
+  Teacher rubric (fill in):     ___
+  Student clarity (fill in):    ___
+  Student alignment (fill in):  ___
+  Student usefulness (fill in): ___
+
+=================================================================
