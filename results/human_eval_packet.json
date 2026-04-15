@@ -17,7 +17,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 1,
@@ -37,7 +38,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 2,
@@ -57,7 +59,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 3,
@@ -77,7 +80,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 4,
@@ -97,7 +101,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": "<svg viewBox=\"0 0 320 210\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:300px;display:block;margin:auto\">\n\n  <!-- Trapezium ABCD: AB top || DC bottom -->\n  <polygon points=\"130,45 265,45 285,170 40,170\"\n           fill=\"#EEF2FF\" stroke=\"#4472C4\" stroke-width=\"2\"/>\n\n  <!-- Labels -->\n  <text x=\"125\" y=\"35\"  font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">A</text>\n  <text x=\"268\" y=\"35\"  font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">B</text>\n  <text x=\"288\" y=\"185\" font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">C</text>\n  <text x=\"25\"  y=\"185\" font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">D</text>\n\n  <!-- E on AD midpoint: A(130,45) D(40,170) => (85,108) -->\n  <circle cx=\"85\" cy=\"108\" r=\"4\" fill=\"#E24B4A\"/>\n  <text x=\"92\" y=\"106\" font-size=\"13\" font-weight=\"bold\" fill=\"#E24B4A\">E</text>\n\n  <!-- F top-left: BA produced beyond A, CE produced meets there -->\n  <text x=\"6\" y=\"42\" font-size=\"14\" font-weight=\"bold\" fill=\"#E24B4A\">F</text>\n\n  <!-- BA produced: B(265,45) -> A(130,45) -> F(18,45) -->\n  <line x1=\"265\" y1=\"45\" x2=\"18\" y2=\"45\" stroke=\"#4472C4\" stroke-width=\"2\"/>\n\n  <!-- CE produced through E to F: C(285,170)->E(85,108)->F(18,45) -->\n  <line x1=\"285\" y1=\"170\" x2=\"18\" y2=\"45\"\n        stroke=\"#E24B4A\" stroke-width=\"1.5\" stroke-dasharray=\"5,3\"/>\n\n  <!-- FD dashed: F(18,45) to D(40,170) -->\n  <line x1=\"18\" y1=\"45\" x2=\"40\" y2=\"170\"\n        stroke=\"#555\" stroke-width=\"1.2\" stroke-dasharray=\"4,3\"/>\n\n  <!-- AC dashed: A(130,45) to C(285,170) -->\n  <line x1=\"130\" y1=\"45\" x2=\"285\" y2=\"170\"\n        stroke=\"#555\" stroke-width=\"1.2\" stroke-dasharray=\"4,3\"/>\n\n</svg>"
   },
   {
     "item_id": 5,
@@ -117,7 +122,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": "<svg viewBox=\"0 0 320 210\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:300px;display:block;margin:auto\">\n\n  <!-- Trapezium ABCD: AB top || DC bottom -->\n  <polygon points=\"130,45 265,45 285,170 40,170\"\n           fill=\"#EEF2FF\" stroke=\"#4472C4\" stroke-width=\"2\"/>\n\n  <!-- Labels -->\n  <text x=\"125\" y=\"35\"  font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">A</text>\n  <text x=\"268\" y=\"35\"  font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">B</text>\n  <text x=\"288\" y=\"185\" font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">C</text>\n  <text x=\"25\"  y=\"185\" font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">D</text>\n\n  <!-- E on AD midpoint: A(130,45) D(40,170) => (85,108) -->\n  <circle cx=\"85\" cy=\"108\" r=\"4\" fill=\"#E24B4A\"/>\n  <text x=\"92\" y=\"106\" font-size=\"13\" font-weight=\"bold\" fill=\"#E24B4A\">E</text>\n\n  <!-- F top-left: BA produced beyond A, CE produced meets there -->\n  <text x=\"6\" y=\"42\" font-size=\"14\" font-weight=\"bold\" fill=\"#E24B4A\">F</text>\n\n  <!-- BA produced: B(265,45) -> A(130,45) -> F(18,45) -->\n  <line x1=\"265\" y1=\"45\" x2=\"18\" y2=\"45\" stroke=\"#4472C4\" stroke-width=\"2\"/>\n\n  <!-- CE produced through E to F: C(285,170)->E(85,108)->F(18,45) -->\n  <line x1=\"285\" y1=\"170\" x2=\"18\" y2=\"45\"\n        stroke=\"#E24B4A\" stroke-width=\"1.5\" stroke-dasharray=\"5,3\"/>\n\n  <!-- FD dashed: F(18,45) to D(40,170) -->\n  <line x1=\"18\" y1=\"45\" x2=\"40\" y2=\"170\"\n        stroke=\"#555\" stroke-width=\"1.2\" stroke-dasharray=\"4,3\"/>\n\n  <!-- AC dashed: A(130,45) to C(285,170) -->\n  <line x1=\"130\" y1=\"45\" x2=\"285\" y2=\"170\"\n        stroke=\"#555\" stroke-width=\"1.2\" stroke-dasharray=\"4,3\"/>\n\n</svg>"
   },
   {
     "item_id": 6,
@@ -137,7 +143,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 7,
@@ -157,7 +164,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 8,
@@ -177,7 +185,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 9,
@@ -197,7 +206,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 10,
@@ -217,7 +227,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 11,
@@ -237,7 +248,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 12,
@@ -257,7 +269,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:280px;display:block;margin:auto\">\n\n  <polygon points=\"40,145 260,145 210,40 90,40\"\n           fill=\"#EEF2FF\" stroke=\"#4472C4\" stroke-width=\"2\"/>\n\n  <text x=\"27\"  y=\"163\" font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">A</text>\n  <text x=\"263\" y=\"163\" font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">B</text>\n  <text x=\"213\" y=\"34\"  font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">C</text>\n  <text x=\"78\"  y=\"34\"  font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">D</text>\n\n  <text x=\"125\" y=\"168\" font-size=\"11\" fill=\"#555\">AB = 8 cm</text>\n  <text x=\"128\" y=\"30\"  font-size=\"11\" fill=\"#555\">DC = 5 cm</text>\n\n  <line x1=\"150\" y1=\"145\" x2=\"150\" y2=\"40\"\n        stroke=\"#888\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/>\n  <text x=\"154\" y=\"100\" font-size=\"11\" fill=\"#555\">h = 4 cm</text>\n\n</svg>"
   },
   {
     "item_id": 13,
@@ -277,7 +290,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\" style=\"max-width:280px;display:block;margin:auto\">\n\n  <polygon points=\"40,145 260,145 210,40 90,40\"\n           fill=\"#EEF2FF\" stroke=\"#4472C4\" stroke-width=\"2\"/>\n\n  <text x=\"27\"  y=\"163\" font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">A</text>\n  <text x=\"263\" y=\"163\" font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">B</text>\n  <text x=\"213\" y=\"34\"  font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">C</text>\n  <text x=\"78\"  y=\"34\"  font-size=\"14\" font-weight=\"bold\" fill=\"#2E4057\">D</text>\n\n  <text x=\"125\" y=\"168\" font-size=\"11\" fill=\"#555\">AB = 8 cm</text>\n  <text x=\"128\" y=\"30\"  font-size=\"11\" fill=\"#555\">DC = 5 cm</text>\n\n  <line x1=\"150\" y1=\"145\" x2=\"150\" y2=\"40\"\n        stroke=\"#888\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/>\n  <text x=\"154\" y=\"100\" font-size=\"11\" fill=\"#555\">h = 4 cm</text>\n\n</svg>"
   },
   {
     "item_id": 14,
@@ -297,7 +311,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 15,
@@ -317,7 +332,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 16,
@@ -337,7 +353,8 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   },
   {
     "item_id": 17,
@@ -357,6 +374,7 @@
     "student_clarity": null,
     "student_alignment": null,
     "student_usefulness": null,
-    "evaluator_id": null
+    "evaluator_id": null,
+    "figure_svg": null
   }
 ]

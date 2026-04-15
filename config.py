@@ -28,6 +28,7 @@ TEXTBOOK_PDF = RAW_DIR / "class10_math.pdf"
 OPENAI_API_KEY    = os.getenv("OPENAI_API_KEY", "")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 HF_TOKEN          = os.getenv("HF_TOKEN", "")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 
 # ── Models ─────────────────────────────────────────────────────────────────
 VISION_MODEL = "gpt-4o"
