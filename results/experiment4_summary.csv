@@ -1,0 +1,235 @@
+item_id,test_id,chapter_type,difficulty,question_type,setting,teacher_rubric,auto_rubric,step_correctness,student_clarity,student_alignment,student_usefulness,evaluator_id
+0,8,geometry,easy,computational,RAG,,3,1.0,5,5,5,a
+1,8,geometry,easy,computational,Baseline,,3,1.0,4,3,3,a
+0,8,geometry,easy,computational,RAG,,3,1.0,5,5,5,Nabin
+1,8,geometry,easy,computational,Baseline,,3,1.0,3,4,3,Nabin
+0,8,geometry,easy,computational,RAG,,3,1.0,4,3,4,Nabin
+1,8,geometry,easy,computational,Baseline,,3,1.0,3,4,4,Nabin
+16,31,word_problems,medium,computational,RAG,,3,1.0,4,4,4,Nabin
+17,31,word_problems,medium,computational,Baseline,,3,1.0,3,2,2,Nabin
+1,8,geometry,easy,computational,Baseline,2,3,1.0,,,,Anushka Ojha
+0,8,geometry,easy,computational,RAG,3,3,1.0,,,,Anushka Ojha
+1,8,geometry,easy,computational,Baseline,,3,1.0,3,3,3,s
+0,8,geometry,easy,computational,RAG,,3,1.0,5,5,5,s
+16,31,word_problems,medium,computational,RAG,,3,1.0,4,4,5,s
+17,31,word_problems,medium,computational,Baseline,,3,1.0,3,4,4,s
+2,49,geometry,medium,computational,RAG,,3,1.0,5,5,5,s
+3,49,geometry,medium,computational,Baseline,,3,1.0,3,4,3,s
+9,59,algebra,medium,computational,Baseline,,1,1.0,3,3,3,s
+8,59,algebra,medium,computational,RAG,,1,1.0,3,4,4,s
+13,61,word_problems,easy,conceptual,Baseline,,0,0.8,4,3,4,s
+12,61,word_problems,easy,conceptual,RAG,,1,1.0,4,4,4,s
+0,8,geometry,easy,computational,RAG,3,3,1.0,,,,215
+1,8,geometry,easy,computational,Baseline,3,3,1.0,,,,215
+16,31,word_problems,medium,computational,RAG,3,3,1.0,,,,215
+17,31,word_problems,medium,computational,Baseline,3,3,1.0,,,,215
+3,49,geometry,medium,computational,Baseline,0,3,1.0,,,,215
+2,49,geometry,medium,computational,RAG,1,3,1.0,,,,215
+9,59,algebra,medium,computational,Baseline,0,1,1.0,,,,215
+8,59,algebra,medium,computational,RAG,0,1,1.0,,,,215
+12,61,word_problems,easy,conceptual,RAG,2,1,1.0,,,,215
+13,61,word_problems,easy,conceptual,Baseline,1,0,0.8,,,,215
+7,69,algebra,easy,conceptual,Baseline,0,3,1.0,,,,215
+6,69,algebra,easy,conceptual,RAG,3,3,1.0,,,,215
+15,77,word_problems,medium,conceptual,Baseline,2,3,1.0,,,,215
+14,77,word_problems,medium,conceptual,RAG,3,3,1.0,,,,215
+11,79,algebra,hard,proof,Baseline,0,3,1.0,,,,215
+10,79,algebra,hard,proof,RAG,0,3,1.0,,,,215
+4,93,geometry,hard,proof,RAG,0,3,1.0,,,,215
+5,93,geometry,hard,proof,Baseline,2,3,1.0,,,,215
+1,8,geometry,easy,computational,Baseline,,3,1.0,3,2,2,12456
+0,8,geometry,easy,computational,RAG,,3,1.0,1,3,5,12456
+16,31,word_problems,medium,computational,RAG,,3,1.0,1,1,1,12456
+17,31,word_problems,medium,computational,Baseline,,3,1.0,1,1,1,12456
+3,49,geometry,medium,computational,Baseline,,3,1.0,1,1,1,12456
+2,49,geometry,medium,computational,RAG,,3,1.0,1,1,1,12456
+8,59,algebra,medium,computational,RAG,,1,1.0,1,1,1,12456
+9,59,algebra,medium,computational,Baseline,,1,1.0,1,1,1,12456
+13,61,word_problems,easy,conceptual,Baseline,,0,0.8,5,5,5,12456
+12,61,word_problems,easy,conceptual,RAG,,1,1.0,5,5,5,12456
+7,69,algebra,easy,conceptual,Baseline,,3,1.0,5,5,5,12456
+6,69,algebra,easy,conceptual,RAG,,3,1.0,5,5,5,12456
+14,77,word_problems,medium,conceptual,RAG,,3,1.0,2,2,4,12456
+15,77,word_problems,medium,conceptual,Baseline,,3,1.0,1,2,3,12456
+11,79,algebra,hard,proof,Baseline,,3,1.0,5,3,1,12456
+10,79,algebra,hard,proof,RAG,,3,1.0,5,3,1,12456
+5,93,geometry,hard,proof,Baseline,,3,1.0,1,3,5,12456
+4,93,geometry,hard,proof,RAG,,3,1.0,1,3,5,12456
+0,8,geometry,easy,computational,RAG,,3,1.0,5,5,5,N
+1,8,geometry,easy,computational,Baseline,,3,1.0,3,3,3,N
+0,8,geometry,easy,computational,RAG,3,3,1.0,,,,J B
+1,8,geometry,easy,computational,Baseline,3,3,1.0,,,,J B
+17,31,word_problems,medium,computational,Baseline,3,3,1.0,,,,J B
+16,31,word_problems,medium,computational,RAG,3,3,1.0,,,,J B
+2,49,geometry,medium,computational,RAG,3,3,1.0,,,,J B
+3,49,geometry,medium,computational,Baseline,3,3,1.0,,,,J B
+0,8,geometry,easy,computational,RAG,3,3,1.0,,,,pawan
+1,8,geometry,easy,computational,Baseline,2,3,1.0,,,,pawan
+16,31,word_problems,medium,computational,RAG,3,3,1.0,,,,pawan
+17,31,word_problems,medium,computational,Baseline,2,3,1.0,,,,pawan
+2,49,geometry,medium,computational,RAG,3,3,1.0,,,,pawan
+3,49,geometry,medium,computational,Baseline,2,3,1.0,,,,pawan
+8,59,algebra,medium,computational,RAG,3,1,1.0,,,,pawan
+9,59,algebra,medium,computational,Baseline,2,1,1.0,,,,pawan
+12,61,word_problems,easy,conceptual,RAG,3,1,1.0,,,,pawan
+13,61,word_problems,easy,conceptual,Baseline,2,0,0.8,,,,pawan
+7,69,algebra,easy,conceptual,Baseline,2,3,1.0,,,,pawan
+6,69,algebra,easy,conceptual,RAG,3,3,1.0,,,,pawan
+15,77,word_problems,medium,conceptual,Baseline,2,3,1.0,,,,pawan
+14,77,word_problems,medium,conceptual,RAG,3,3,1.0,,,,pawan
+11,79,algebra,hard,proof,Baseline,2,3,1.0,,,,pawan
+10,79,algebra,hard,proof,RAG,3,3,1.0,,,,pawan
+5,93,geometry,hard,proof,Baseline,2,3,1.0,,,,pawan
+4,93,geometry,hard,proof,RAG,3,3,1.0,,,,pawan
+0,8,geometry,easy,computational,RAG,,3,1.0,5,5,5,a
+1,8,geometry,easy,computational,Baseline,,3,1.0,3,3,3,a
+16,31,word_problems,medium,computational,RAG,,3,1.0,4,3,4,a
+17,31,word_problems,medium,computational,Baseline,,3,1.0,3,3,3,a
+2,49,geometry,medium,computational,RAG,,3,1.0,3,3,3,a
+3,49,geometry,medium,computational,Baseline,,3,1.0,3,2,2,a
+8,59,algebra,medium,computational,RAG,,1,1.0,3,3,4,a
+9,59,algebra,medium,computational,Baseline,,1,1.0,3,3,3,a
+0,8,geometry,easy,computational,RAG,,3,1.0,5,5,5,a
+1,8,geometry,easy,computational,Baseline,,3,1.0,3,3,3,a
+16,31,word_problems,medium,computational,RAG,,3,1.0,3,3,3,a
+17,31,word_problems,medium,computational,Baseline,,3,1.0,2,2,2,a
+2,49,geometry,medium,computational,RAG,,3,1.0,3,4,4,a
+3,49,geometry,medium,computational,Baseline,,3,1.0,2,2,2,a
+8,59,algebra,medium,computational,RAG,,1,1.0,5,5,5,a
+9,59,algebra,medium,computational,Baseline,,1,1.0,2,2,2,a
+12,61,word_problems,easy,conceptual,RAG,,1,1.0,4,4,4,a
+13,61,word_problems,easy,conceptual,Baseline,,0,0.8,2,3,2,a
+6,69,algebra,easy,conceptual,RAG,,3,1.0,3,3,3,a
+7,69,algebra,easy,conceptual,Baseline,,3,1.0,3,3,3,a
+14,77,word_problems,medium,conceptual,RAG,,3,1.0,4,4,4,a
+15,77,word_problems,medium,conceptual,Baseline,,3,1.0,3,3,3,a
+10,79,algebra,hard,proof,RAG,,3,1.0,4,4,4,a
+11,79,algebra,hard,proof,Baseline,,3,1.0,2,3,2,a
+0,8,geometry,easy,computational,RAG,,3,1.0,4,4,4,a
+1,8,geometry,easy,computational,Baseline,,3,1.0,3,4,3,a
+16,31,word_problems,medium,computational,RAG,,3,1.0,5,5,5,a
+17,31,word_problems,medium,computational,Baseline,,3,1.0,3,3,3,a
+3,49,geometry,medium,computational,Baseline,,3,1.0,3,2,3,a
+2,49,geometry,medium,computational,RAG,,3,1.0,3,3,3,a
+9,59,algebra,medium,computational,Baseline,,1,1.0,3,3,3,a
+8,59,algebra,medium,computational,RAG,,1,1.0,4,4,4,a
+13,61,word_problems,easy,conceptual,Baseline,,0,0.8,3,2,2,a
+12,61,word_problems,easy,conceptual,RAG,,1,1.0,4,4,4,a
+6,69,algebra,easy,conceptual,RAG,,3,1.0,4,4,4,a
+7,69,algebra,easy,conceptual,Baseline,,3,1.0,3,3,4,a
+14,77,word_problems,medium,conceptual,RAG,,3,1.0,4,4,5,a
+15,77,word_problems,medium,conceptual,Baseline,,3,1.0,3,3,3,a
+10,79,algebra,hard,proof,RAG,,3,1.0,3,5,5,a
+11,79,algebra,hard,proof,Baseline,,3,1.0,3,4,3,a
+0,8,geometry,easy,computational,RAG,,3,1.0,5,5,5,a
+1,8,geometry,easy,computational,Baseline,,3,1.0,3,2,3,a
+17,31,word_problems,medium,computational,Baseline,,3,1.0,3,2,2,a
+16,31,word_problems,medium,computational,RAG,,3,1.0,4,4,4,a
+2,49,geometry,medium,computational,RAG,,3,1.0,5,5,5,a
+3,49,geometry,medium,computational,Baseline,,3,1.0,2,2,4,a
+9,59,algebra,medium,computational,Baseline,,1,1.0,2,3,3,a
+8,59,algebra,medium,computational,RAG,,1,1.0,4,4,4,a
+12,61,word_problems,easy,conceptual,RAG,,1,1.0,4,4,4,a
+13,61,word_problems,easy,conceptual,Baseline,,0,0.8,2,2,2,a
+6,69,algebra,easy,conceptual,RAG,,3,1.0,4,3,3,a
+7,69,algebra,easy,conceptual,Baseline,,3,1.0,2,2,2,a
+14,77,word_problems,medium,conceptual,RAG,,3,1.0,5,2,5,a
+15,77,word_problems,medium,conceptual,Baseline,,3,1.0,1,3,3,a
+11,79,algebra,hard,proof,Baseline,,3,1.0,2,2,2,a
+10,79,algebra,hard,proof,RAG,,3,1.0,3,3,3,a
+0,8,geometry,easy,computational,RAG,3,3,1.0,,,,Sabita
+1,8,geometry,easy,computational,Baseline,2,3,1.0,,,,Sabita
+17,31,word_problems,medium,computational,Baseline,3,3,1.0,,,,Sabita
+16,31,word_problems,medium,computational,RAG,3,3,1.0,,,,Sabita
+3,49,geometry,medium,computational,Baseline,2,3,1.0,,,,Sabita
+2,49,geometry,medium,computational,RAG,3,3,1.0,,,,Sabita
+8,59,algebra,medium,computational,RAG,3,1,1.0,,,,Sabita
+9,59,algebra,medium,computational,Baseline,2,1,1.0,,,,Sabita
+0,8,geometry,easy,computational,RAG,3,3,1.0,,,,Ta
+1,8,geometry,easy,computational,Baseline,2,3,1.0,,,,Ta
+16,31,word_problems,medium,computational,RAG,3,3,1.0,,,,Ta
+17,31,word_problems,medium,computational,Baseline,2,3,1.0,,,,Ta
+2,49,geometry,medium,computational,RAG,3,3,1.0,,,,Ta
+3,49,geometry,medium,computational,Baseline,2,3,1.0,,,,Ta
+8,59,algebra,medium,computational,RAG,3,1,1.0,,,,Ta
+9,59,algebra,medium,computational,Baseline,2,1,1.0,,,,Ta
+12,61,word_problems,easy,conceptual,RAG,3,1,1.0,,,,Ta
+13,61,word_problems,easy,conceptual,Baseline,2,0,0.8,,,,Ta
+7,69,algebra,easy,conceptual,Baseline,2,3,1.0,,,,Ta
+6,69,algebra,easy,conceptual,RAG,3,3,1.0,,,,Ta
+14,77,word_problems,medium,conceptual,RAG,3,3,1.0,,,,Ta
+15,77,word_problems,medium,conceptual,Baseline,2,3,1.0,,,,Ta
+11,79,algebra,hard,proof,Baseline,2,3,1.0,,,,Ta
+10,79,algebra,hard,proof,RAG,3,3,1.0,,,,Ta
+0,8,geometry,easy,computational,RAG,3,3,1.0,,,,Sabita
+1,8,geometry,easy,computational,Baseline,2,3,1.0,,,,Sabita
+17,31,word_problems,medium,computational,Baseline,2,3,1.0,,,,Sabita
+16,31,word_problems,medium,computational,RAG,3,3,1.0,,,,Sabita
+3,49,geometry,medium,computational,Baseline,2,3,1.0,,,,Sabita
+2,49,geometry,medium,computational,RAG,3,3,1.0,,,,Sabita
+9,59,algebra,medium,computational,Baseline,2,1,1.0,,,,Sabita
+8,59,algebra,medium,computational,RAG,3,1,1.0,,,,Sabita
+12,61,word_problems,easy,conceptual,RAG,3,1,1.0,,,,Sabita
+13,61,word_problems,easy,conceptual,Baseline,2,0,0.8,,,,Sabita
+7,69,algebra,easy,conceptual,Baseline,2,3,1.0,,,,Sabita
+6,69,algebra,easy,conceptual,RAG,3,3,1.0,,,,Sabita
+15,77,word_problems,medium,conceptual,Baseline,2,3,1.0,,,,Sabita
+14,77,word_problems,medium,conceptual,RAG,3,3,1.0,,,,Sabita
+10,79,algebra,hard,proof,RAG,3,3,1.0,,,,Sabita
+11,79,algebra,hard,proof,Baseline,2,3,1.0,,,,Sabita
+0,8,geometry,easy,computational,RAG,,3,1.0,4,4,4,st126522
+1,8,geometry,easy,computational,Baseline,,3,1.0,4,3,4,st126522
+17,31,word_problems,medium,computational,Baseline,,3,1.0,4,3,4,st126522
+16,31,word_problems,medium,computational,RAG,,3,1.0,4,4,4,st126522
+3,49,geometry,medium,computational,Baseline,,3,1.0,5,3,3,st126522
+2,49,geometry,medium,computational,RAG,,3,1.0,5,4,5,st126522
+8,59,algebra,medium,computational,RAG,,1,1.0,5,3,4,st126522
+9,59,algebra,medium,computational,Baseline,,1,1.0,5,4,4,st126522
+12,61,word_problems,easy,conceptual,RAG,,1,1.0,5,4,4,st126522
+13,61,word_problems,easy,conceptual,Baseline,,0,0.8,5,3,5,st126522
+7,69,algebra,easy,conceptual,Baseline,,3,1.0,5,4,4,st126522
+6,69,algebra,easy,conceptual,RAG,,3,1.0,5,4,4,st126522
+1,8,geometry,easy,computational,Baseline,1,3,1.0,,,,dilman ghalan
+0,8,geometry,easy,computational,RAG,2,3,1.0,,,,dilman ghalan
+15,77,word_problems,medium,conceptual,Baseline,,3,1.0,5,4,3,st126522
+14,77,word_problems,medium,conceptual,RAG,,3,1.0,5,4,5,st126522
+11,79,algebra,hard,proof,Baseline,,3,1.0,5,4,4,st126522
+10,79,algebra,hard,proof,RAG,,3,1.0,5,4,3,st126522
+5,93,geometry,hard,proof,Baseline,,3,1.0,5,4,4,st126522
+4,93,geometry,hard,proof,RAG,,3,1.0,5,4,4,st126522
+0,8,geometry,easy,computational,RAG,,3,1.0,5,5,5,Student126199
+1,8,geometry,easy,computational,Baseline,,3,1.0,3,1,1,Student126199
+16,31,word_problems,medium,computational,RAG,,3,1.0,5,4,5,Student126199
+17,31,word_problems,medium,computational,Baseline,,3,1.0,1,1,1,Student126199
+2,49,geometry,medium,computational,RAG,,3,1.0,4,4,4,Student126199
+3,49,geometry,medium,computational,Baseline,,3,1.0,2,1,1,Student126199
+8,59,algebra,medium,computational,RAG,,1,1.0,5,5,5,Student126199
+9,59,algebra,medium,computational,Baseline,,1,1.0,1,3,1,Student126199
+13,61,word_problems,easy,conceptual,Baseline,,0,0.8,4,2,3,Student126199
+12,61,word_problems,easy,conceptual,RAG,,1,1.0,1,1,1,Student126199
+6,69,algebra,easy,conceptual,RAG,,3,1.0,5,5,5,Student126199
+7,69,algebra,easy,conceptual,Baseline,,3,1.0,4,4,4,Student126199
+14,77,word_problems,medium,conceptual,RAG,,3,1.0,5,5,5,Student126199
+15,77,word_problems,medium,conceptual,Baseline,,3,1.0,3,4,1,Student126199
+10,79,algebra,hard,proof,RAG,,3,1.0,5,5,5,Student126199
+11,79,algebra,hard,proof,Baseline,,3,1.0,5,5,5,Student126199
+5,93,geometry,hard,proof,Baseline,,3,1.0,4,3,3,Student126199
+4,93,geometry,hard,proof,RAG,,3,1.0,5,5,5,Student126199
+1,8,geometry,easy,computational,Baseline,2,3,1.0,,,,Sabita Adhikari
+0,8,geometry,easy,computational,RAG,2,3,1.0,,,,Sabita Adhikari
+16,31,word_problems,medium,computational,RAG,2,3,1.0,,,,Sabita Adhikari
+17,31,word_problems,medium,computational,Baseline,2,3,1.0,,,,Sabita Adhikari
+3,49,geometry,medium,computational,Baseline,2,3,1.0,,,,Sabita Adhikari
+2,49,geometry,medium,computational,RAG,2,3,1.0,,,,Sabita Adhikari
+9,59,algebra,medium,computational,Baseline,2,1,1.0,,,,Sabita Adhikari
+8,59,algebra,medium,computational,RAG,2,1,1.0,,,,Sabita Adhikari
+13,61,word_problems,easy,conceptual,Baseline,0,0,0.8,,,,Sabita Adhikari
+12,61,word_problems,easy,conceptual,RAG,0,1,1.0,,,,Sabita Adhikari
+7,69,algebra,easy,conceptual,Baseline,0,3,1.0,,,,Sabita Adhikari
+6,69,algebra,easy,conceptual,RAG,2,3,1.0,,,,Sabita Adhikari
+15,77,word_problems,medium,conceptual,Baseline,2,3,1.0,,,,Sabita Adhikari
+14,77,word_problems,medium,conceptual,RAG,2,3,1.0,,,,Sabita Adhikari
+10,79,algebra,hard,proof,RAG,2,3,1.0,,,,Sabita Adhikari
+11,79,algebra,hard,proof,Baseline,2,3,1.0,,,,Sabita Adhikari
+5,93,geometry,hard,proof,Baseline,2,3,1.0,,,,Sabita Adhikari
+4,93,geometry,hard,proof,RAG,1,3,1.0,,,,Sabita Adhikari

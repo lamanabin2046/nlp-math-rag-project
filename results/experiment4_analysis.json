@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-04-19T11:25:45.449966",
+  "n_items": 234,
+  "n_evaluators": 15,
+  "rubric_comparison": {
+    "RAG": {
+      "mean_teacher_rubric": 2.519,
+      "mean_auto_rubric": 2.556,
+      "mean_step_correctness": 1.0,
+      "n": 52
+    },
+    "Baseline": {
+      "mean_teacher_rubric": 1.846,
+      "mean_auto_rubric": 2.453,
+      "mean_step_correctness": 0.979,
+      "n": 52
+    }
+  },
+  "likert_summary": {
+    "by_setting": {
+      "RAG": {
+        "student_clarity": 4.0,
+        "student_alignment": 3.862,
+        "student_usefulness": 4.092
+      },
+      "Baseline": {
+        "student_clarity": 3.031,
+        "student_alignment": 2.862,
+        "student_usefulness": 2.862
+      }
+    },
+    "by_chapter": {
+      "geometry": {
+        "student_clarity": 3.522,
+        "student_alignment": 3.413,
+        "student_usefulness": 3.63
+      },
+      "word_problems": {
+        "student_clarity": 3.409,
+        "student_alignment": 3.159,
+        "student_usefulness": 3.409
+      },
+      "algebra": {
+        "student_clarity": 3.625,
+        "student_alignment": 3.525,
+        "student_usefulness": 3.375
+      }
+    }
+  },
+  "cohens_kappa": {
+    "teacher_vs_auto_rubric_kappa": 0.0284,
+    "teacher_vs_step_correctness_corr": 0.1963,
+    "n_pairs": 104
+  },
+  "rag_vs_baseline": {
+    "teacher_rubric": {
+      "mean_gain": 0.1111,
+      "positive": 1,
+      "negative": 1,
+      "neutral": 7,
+      "n_pairs": 9
+    },
+    "auto_rubric": {
+      "mean_gain": 0.1111,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8,
+      "n_pairs": 9
+    },
+    "step_correctness": {
+      "mean_gain": 0.0222,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 8,
+      "n_pairs": 9
+    }
+  },
+  "per_chapter_type": {
+    "geometry": {
+      "mean_teacher_rubric": 2.237,
+      "mean_student_clarity": 3.522,
+      "n": 84
+    },
+    "word_problems": {
+      "mean_teacher_rubric": 2.324,
+      "mean_student_clarity": 3.409,
+      "n": 78
+    },
+    "algebra": {
+      "mean_teacher_rubric": 1.969,
+      "mean_student_clarity": 3.625,
+      "n": 72
+    }
+  }
+}
