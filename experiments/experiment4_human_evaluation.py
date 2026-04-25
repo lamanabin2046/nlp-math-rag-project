@@ -423,11 +423,37 @@ def analyze_scores():
     with open(scores_path, encoding="utf-8") as f:
         scores = json.load(f)
 
-    merged = []
+    # merged = []
+    # for sc in scores:
+    #     item = packet.get(sc["item_id"], {}).copy()
+    #     item.update({k: v for k, v in sc.items() if v is not None})
+    #     merged.append(item)
+    
+    
+    from collections import defaultdict
+    item_scores = defaultdict(lambda: {
+        "teacher_rubric": [], "student_clarity": [],
+        "student_alignment": [], "student_usefulness": []
+    })
+
     for sc in scores:
-        item = packet.get(sc["item_id"], {}).copy()
-        item.update({k: v for k, v in sc.items() if v is not None})
+        iid = sc["item_id"]
+        for field in ["teacher_rubric", "student_clarity",
+                      "student_alignment", "student_usefulness"]:
+            if sc.get(field) is not None:
+                item_scores[iid][field].append(sc[field])
+
+    merged = []
+    for iid, score_lists in item_scores.items():
+        item = packet.get(iid, {"item_id": iid}).copy()
+        item["teacher_rubric"]    = round(np.mean(score_lists["teacher_rubric"]), 3) if score_lists["teacher_rubric"] else None
+        item["student_clarity"]   = round(np.mean(score_lists["student_clarity"]), 3) if score_lists["student_clarity"] else None
+        item["student_alignment"] = round(np.mean(score_lists["student_alignment"]), 3) if score_lists["student_alignment"] else None
+        item["student_usefulness"]= round(np.mean(score_lists["student_usefulness"]), 3) if score_lists["student_usefulness"] else None
+        item["evaluator_id"]      = f"{len(score_lists['teacher_rubric'])}T_{len(score_lists['student_clarity'])}S"
         merged.append(item)
+
+    print(f"Loaded {len(merged)} unique items (averaged across evaluators)\n")
 
     print(f"Loaded {len(merged)} scored items\n")
 
